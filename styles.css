@@ -16,11 +16,17 @@ body{
     background-image: url(img/banner.jpg);
 }
 
+h1, h2, p{
+    color: aqua;
+}
+
 header{
     background-color: rgb(6, 197, 255);
     position: fixed;
     width: 90%;
-    padding: 10px;
+    top: 1%;
+    height: 3%;
+    padding: 0.5%;
     margin-bottom: 20px;
     border:thick solid whitesmoke;
 }
@@ -55,17 +61,17 @@ nav a{
 .banner{
     position: relative;
     display: block;
-    top: 65px;
+    top: 10%;
     background-color: black;
-    padding: 30px;
-    height: 100px;
+    height: 30%;
     max-width: 100%;
+    border:thick solid whitesmoke;
 }
 
 .banner .user-icon{
     position: absolute;
     display: inline-block;
-    height: 100px;
+    height: 80%;
     left: 1%;
     top: auto;
     border-radius: 50%;
@@ -84,5 +90,19 @@ nav a{
     position: absolute;
     color: white;
     left: 15%;
-    bottom: 10%;
+    top: 50%;
+}
+
+.sections-container{
+    position: relative;
+    display: block;
+    top: 15%;
+}
+
+.other-sections{
+    position: static;
+    display: inline-block;
+    width: 40%;
+    border: thick solid lime;
+    background-color: black;
 }
