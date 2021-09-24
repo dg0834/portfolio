@@ -16,7 +16,7 @@ body{
     background-image: url(img/banner.jpg);
 }
 
-h1, h2, p{
+h1, h2, p, img{
     color: aqua;
 }
 
@@ -29,6 +29,7 @@ header{
     padding: 0.5%;
     margin-bottom: 20px;
     border:thick solid whitesmoke;
+    z-index: 1;
 }
 
 .my-name{
@@ -97,12 +98,16 @@ nav a{
     position: relative;
     display: block;
     top: 15%;
+    border: thick solid white;
+    background-color: black;
+    max-width: 100%;
 }
 
 .other-sections{
-    position: static;
+    position: relative;
     display: inline-block;
     width: 40%;
     border: thick solid lime;
     background-color: black;
+    margin: 10px
 }
